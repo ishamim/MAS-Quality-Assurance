@@ -10,47 +10,20 @@ This repository provides Python implementations for testing and analyzing the qu
   * Communications Manager: Drafts and sends event invitation emails to all guests.
 * Output: Generates email drafts for all guests with event details.
 # 2. Quality_Assurance.py
-Purpose: Tests the event planning MAS for application and system performance.
-Functionality:
-Integrates Trulens for evaluating quality metrics such as relevance, groundedness, and correctness of outputs.
-Uses AgentOps to measure system-level parameters like session cost, token usage, and time duration.
-Scenarios Tested:
-Ideal conditions.
-Missing or adversarial data.
-Scalability with increased workload.
-Output: A detailed performance report that identifies strengths and areas for improvement in the MAS.
+* Purpose: Tests the event planning MAS for application and system performance.
+* Functionality: Integrates Trulens for evaluating quality metrics such as relevance, groundedness, and correctness of outputs.
+* Uses AgentOps to measure system-level parameters like session cost, token usage, and time duration.
+* Scenarios Tested:
+  * Ideal conditions.
+  * Missing or adversarial data.
+  * Scalability with increased workload.
+* Output: A detailed performance report that identifies strengths and areas for improvement in the MAS.
+
 # Installation
-Clone the repository: git clone https://github.com/<your-username>/MAS-Quality-Assurance.git
-Navigate to the project directory: cd Multi-Agent System Quality Assurance
-This repository provides Python implementations for testing and analyzing multi-agent systems (MAS) quality assurance based on Large Language Models (LLMs). It includes use cases and evaluation methods to ensure the reliability, efficiency, and performance of LLM-powered MAS. The repository contains three key files:
+* Clone the repository: git clone https://github.com/<your-username>/MAS-Quality-Assurance.git
+* Navigate to the project directory: cd Multi-Agent System Quality Assurance
+* Install the required Python dependencies: pip install -r requirements.txt
 
-
-git clone https://github.com/<your-username>/MAS-Quality-Assurance.git
-Navigate to the project directory:
-bash
-Copy code
-cd MAS-Quality-Assurance
-Install the required Python dependencies:
-bash
-Copy code
-pip install -r requirements.txt
-Usage
-Run Event Planning MAS:
-bash
-Copy code
-python Event_Planning.py
-Test Quality Assurance:
-bash
-Copy code
-python Quality_Assurance.py
-Evaluate MAS Structures:
-bash
-Copy code
-python Seed_Select.pyQuality-Assurance
-Install the required Python dependencies:
-pip install -r requirements.txt
-Usage
-Run Event Planning MAS:
-python Event_Planning.py
-Test Quality Assurance:
-python Quality_Assurance.py
+# Usage
+* Run Event Planning MAS: python Event_Planning.py
+* Test Quality Assurance: python Quality_Assurance.py
