@@ -5,9 +5,9 @@ This repository provides Python implementations for testing and analyzing the qu
 # 1. Event_Planning.py
 * Purpose: Implements an LLM-based multi-agent system designed to automate the event planning process.
 * Agents Involved:
-** Location Finder: Determines the optimal location for an event based on a guest list.
-** Venue Coordinator: Selects and books a suitable venue in the selected location.
-** Communications Manager: Drafts and sends event invitation emails to all guests.
+  * Location Finder: Determines the optimal location for an event based on a guest list.
+  * Venue Coordinator: Selects and books a suitable venue in the selected location.
+  * Communications Manager: Drafts and sends event invitation emails to all guests.
 * Output: Generates email drafts for all guests with event details.
 # 2. Quality_Assurance.py
 Purpose: Tests the event planning MAS for application and system performance.
