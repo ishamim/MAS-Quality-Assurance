@@ -20,18 +20,10 @@ Ideal conditions.
 Missing or adversarial data.
 Scalability with increased workload.
 Output: A detailed performance report that identifies strengths and areas for improvement in the MAS.
-# 3. Seed_Select.py
-Purpose: Analyzes the performance of MAS under different hierarchical structures to find the most efficient configuration for seed selection and farm management recommendations.
-Functionality:
-Tests various MAS structures such as flat, hierarchical, hybrid, centralized, and decentralized setups.
-Uses LangTrace to record metrics like total tokens used, execution time, and cost for each structure.
-Output: A comparison of MAS structures to determine the best-suited architecture for specific use cases.
-Installation
-Clone the repository:
-git clone https://github.com/<your-username>/MAS-Quality-Assurance.git
-Navigate to the project directory:
-cd Multi-Agent System Quality Assurance
-This repository provides Python implementations for testing and analyzing the quality assurance of multi-agent systems (MAS) based on Large Language Models (LLMs). It includes use cases and evaluation methods to ensure the reliability, efficiency, and performance of LLM-powered MAS. The repository contains three key files:
+# Installation
+Clone the repository: git clone https://github.com/<your-username>/MAS-Quality-Assurance.git
+Navigate to the project directory: cd Multi-Agent System Quality Assurance
+This repository provides Python implementations for testing and analyzing multi-agent systems (MAS) quality assurance based on Large Language Models (LLMs). It includes use cases and evaluation methods to ensure the reliability, efficiency, and performance of LLM-powered MAS. The repository contains three key files:
 
 Files
 1. Event_Planning.py
