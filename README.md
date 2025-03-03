@@ -20,7 +20,7 @@ This repository provides Python implementations for testing and analyzing the qu
 * Output: A detailed performance report that identifies strengths and areas for improvement in the MAS.
 
 # Installation
-* Clone the repository: git clone https://github.com/<your-username>/MAS-Quality-Assurance.git
+* Clone the repository: git clone https://github.com/ishamim/MAS-Quality-Assurance.git
 * Navigate to the project directory: cd Multi-Agent System Quality Assurance
 * Install the required Python dependencies: pip install -r requirements.txt
 
